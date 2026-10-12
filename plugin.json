@@ -1,0 +1,22 @@
+{
+    "id": "rgbTheme",
+    "name": "RGB Theme",
+    "description": "Paint the PC's RGB lighting in the accent color of the DMS theme through OpenRGB, so fans and strips follow the wallpaper",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "ilyamen",
+    "type": "daemon",
+    "component": "./RgbThemeService.qml",
+    "settings": "./RgbThemeSettings.qml",
+    "startupCheck": "./StartupCheck.qml",
+    "icon": "light_mode",
+    "requires_dms": ">=1.6.0",
+    "dependencies": [
+        "openrgb"
+    ],
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+    ]
+}

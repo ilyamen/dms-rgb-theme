@@ -1,0 +1,89 @@
+{
+    "Apply now": {
+        "Apply now": "Применить сейчас"
+    },
+    "Below about 70% most LEDs look white": {
+        "Below about 70% most LEDs look white": "Ниже примерно 70% большинство светодиодов светят почти белым"
+    },
+    "Brightness": {
+        "Brightness": "Яркость"
+    },
+    "Choose the zones to paint below": {
+        "Choose the zones to paint below": "Выберите зоны ниже"
+    },
+    "Color": {
+        "Color": "Цвет"
+    },
+    "Direct works on most controllers. Some take a color only in Static.": {
+        "Direct works on most controllers. Some take a color only in Static.": "Direct работает на большинстве контроллеров. Некоторые принимают цвет только в Static."
+    },
+    "Find devices": {
+        "Find devices": "Найти устройства"
+    },
+    "Fixed color": {
+        "Fixed color": "Свой цвет"
+    },
+    "For addressable (ARGB) headers enter how many LEDs are chained on them; a larger number does no harm.": {
+        "For addressable (ARGB) headers enter how many LEDs are chained on them; a larger number does no harm.": "Для адресных разъёмов (ARGB) укажите, сколько светодиодов на них подключено цепочкой. Число с запасом ничему не мешает."
+    },
+    "From the theme": {
+        "From the theme": "Из темы"
+    },
+    "Install OpenRGB, or put an OpenRGB AppImage into ~/.local/bin, then re-enable the plugin. Newer boards often work only with a nightly build from openrgb.org.": {
+        "Install OpenRGB, or put an OpenRGB AppImage into ~/.local/bin, then re-enable the plugin. Newer boards often work only with a nightly build from openrgb.org.": "Установите OpenRGB или положите AppImage OpenRGB в ~/.local/bin, затем снова включите плагин. Новые платы часто работают только с ночной сборкой с openrgb.org."
+    },
+    "LEDs": {
+        "LEDs": "LED"
+    },
+    "Leave empty to use an AppImage from ~/.local/bin or openrgb from PATH": {
+        "Leave empty to use an AppImage from ~/.local/bin or openrgb from PATH": "Оставьте пустым, чтобы взять AppImage из ~/.local/bin или openrgb из PATH"
+    },
+    "Lighting set to %1 at %2": {
+        "Lighting set to %1 at %2": "Подсветка %1 с %2"
+    },
+    "Not applied: %1": {
+        "Not applied: %1": "Не применено: %1"
+    },
+    "OpenRGB binary": {
+        "OpenRGB binary": "Программа OpenRGB"
+    },
+    "OpenRGB found no devices. On many boards it needs the i2c-dev module and udev rules from openrgb.org.": {
+        "OpenRGB found no devices. On many boards it needs the i2c-dev module and udev rules from openrgb.org.": "OpenRGB не нашёл устройств. На многих платах нужны модуль i2c-dev и правила udev с openrgb.org."
+    },
+    "OpenRGB is required": {
+        "OpenRGB is required": "Нужен OpenRGB"
+    },
+    "OpenRGB mode": {
+        "OpenRGB mode": "Режим OpenRGB"
+    },
+    "OpenRGB not found": {
+        "OpenRGB not found": "OpenRGB не найден"
+    },
+    "OpenRGB not found.": {
+        "OpenRGB not found.": "OpenRGB не найден."
+    },
+    "RGB lighting not updated": {
+        "RGB lighting not updated": "Подсветка не обновилась"
+    },
+    "Saturation": {
+        "Saturation": "Насыщенность"
+    },
+    "Searching…": {
+        "Searching…": "Поиск…"
+    },
+    "The lighting takes the accent color of the theme, which DMS picks from the wallpaper. Only the hue is kept: LEDs wash out pale colors, so saturation and brightness are set below.": {
+        "The lighting takes the accent color of the theme, which DMS picks from the wallpaper. Only the hue is kept: LEDs wash out pale colors, so saturation and brightness are set below.": "Подсветка берёт акцентный цвет темы, который DMS подбирает по обоям. От него остаётся только оттенок: светодиоды плохо показывают бледные цвета, поэтому насыщенность и яркость задаются ниже."
+    },
+    "Used when the color is set to a fixed one": {
+        "Used when the color is set to a fixed one": "Используется, если выбран свой цвет"
+    },
+    "Waiting for the first color…": {
+        "Waiting for the first color…": "Ждём первый цвет…"
+    },
+    "Zones": {
+        "Zones": "Зоны"
+    },
+    "automatic": {
+        "automatic": "автоматически"
+    }
+}

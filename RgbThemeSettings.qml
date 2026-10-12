@@ -160,6 +160,13 @@ PluginSettings {
         unit: "%"
     }
 
+    ToggleSetting {
+        settingKey: "offOnSleep"
+        label: I18n.trFor("rgbTheme", "Turn off during sleep")
+        description: I18n.trFor("rgbTheme", "Many boards keep the LEDs lit while the PC is suspended or hibernated. The lighting goes dark before sleep and gets its color back after waking up.")
+        defaultValue: true
+    }
+
     SelectionSetting {
         settingKey: "mode"
         label: I18n.trFor("rgbTheme", "OpenRGB mode")

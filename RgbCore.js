@@ -162,6 +162,14 @@ function applyArgs(hex, cfg) {
     return args;
 }
 
+// Run by sleep-guard.py before suspend or hibernation: all zones to black
+function sleepGuardCommand(cfg, dir) {
+    const args = applyArgs("000000", cfg);
+    if (args.length === 0 || !dir)
+        return [];
+    return ["python3", "-I", dir + "/sleep-guard.py"].concat(openrgbCommand(args));
+}
+
 function apply(themeColor, cfg, immediate) {
     if (!proc)
         return;

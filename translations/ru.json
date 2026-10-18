@@ -41,8 +41,8 @@
     "Lighting set to %1 at %2": {
         "Lighting set to %1 at %2": "Подсветка %1 с %2"
     },
-    "Many boards keep the LEDs lit while the PC is suspended or hibernated. The lighting goes dark before sleep and gets its color back after waking up.": {
-        "Many boards keep the LEDs lit while the PC is suspended or hibernated. The lighting goes dark before sleep and gets its color back after waking up.": "Многие платы оставляют подсветку гореть в спящем режиме и гибернации. Перед сном подсветка гаснет, а после пробуждения цвет возвращается."
+    "Many boards keep the LEDs lit while the PC is suspended, hibernated or switched off. The lighting goes dark before sleep, shutdown and reboot, and gets its color back after waking up.": {
+        "Many boards keep the LEDs lit while the PC is suspended, hibernated or switched off. The lighting goes dark before sleep, shutdown and reboot, and gets its color back after waking up.": "Многие платы оставляют подсветку гореть во сне, в гибернации и даже после выключения. Перед сном, выключением и перезагрузкой подсветка гаснет, а после пробуждения цвет возвращается."
     },
     "Not applied: %1": {
         "Not applied: %1": "Не применено: %1"
@@ -77,8 +77,8 @@
     "The lighting takes the accent color of the theme, which DMS picks from the wallpaper. Only the hue is kept: LEDs wash out pale colors, so saturation and brightness are set below.": {
         "The lighting takes the accent color of the theme, which DMS picks from the wallpaper. Only the hue is kept: LEDs wash out pale colors, so saturation and brightness are set below.": "Подсветка берёт акцентный цвет темы, который DMS подбирает по обоям. От него остаётся только оттенок: светодиоды плохо показывают бледные цвета, поэтому насыщенность и яркость задаются ниже."
     },
-    "Turn off during sleep": {
-        "Turn off during sleep": "Гасить во сне"
+    "Turn off during sleep and shutdown": {
+        "Turn off during sleep and shutdown": "Гасить во сне и при выключении"
     },
     "Used when the color is set to a fixed one": {
         "Used when the color is set to a fixed one": "Используется, если выбран свой цвет"

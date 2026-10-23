@@ -1,5 +1,6 @@
 import QtQuick
 import qs.Common
+import qs.DCommon.Widgets
 import qs.Services
 import qs.Widgets
 import qs.Modules.Plugins
@@ -101,14 +102,14 @@ PluginSettings {
             Row {
                 spacing: Theme.spacingS
 
-                DankButton {
+                DButton {
                     text: I18n.trFor("rgbTheme", "Apply now")
                     iconName: "palette"
                     enabled: root.cfg.zones.length > 0
                     onClicked: Core.apply(Theme.primary, SettingsData.getPluginSettingsForPlugin("rgbTheme"), true)
                 }
 
-                DankButton {
+                DButton {
                     text: root.scanning ? I18n.trFor("rgbTheme", "Searching…") : I18n.trFor("rgbTheme", "Find devices")
                     iconName: "refresh"
                     enabled: !root.scanning
@@ -253,7 +254,7 @@ PluginSettings {
                         width: parent.width
                         spacing: Theme.spacingS
 
-                        DankToggle {
+                        DToggle {
                             id: zoneToggle
 
                             anchors.verticalCenter: parent.verticalCenter
@@ -270,7 +271,7 @@ PluginSettings {
                             elide: Text.ElideRight
                         }
 
-                        DankTextField {
+                        DTextField {
                             id: sizeField
 
                             anchors.verticalCenter: parent.verticalCenter
